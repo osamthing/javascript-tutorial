@@ -1,0 +1,22 @@
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tutorial-002</title>
+<script>
+var val = 'Global！';
+function getVal(){
+  console.log(val);//undefined
+  var val = 'Local!';
+  return val;
+}
+console.log(getVal());  //Local!
+console.log(val);  //Global!
+</script>
+</head>
+<body>
+<h1>tutorial-002</h1>
+</body>
+</html>
