@@ -5,6 +5,7 @@ var Phone = function(name){
   this.name = name;
 };
 
+// prototype
 var featurePhone = new Phone('featurephone');
 
 Phone.prototype.getName = function(){
@@ -13,7 +14,5 @@ Phone.prototype.getName = function(){
 
 var smartPhone = new Phone('smartphone');
 
-
 console.log(featurePhone.getName());  //featurephone
 console.log(smartPhone.getName());  //smartphone
-
