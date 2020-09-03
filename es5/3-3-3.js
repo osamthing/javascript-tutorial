@@ -1,6 +1,6 @@
 /*
 Javascriptの関数は、newするとその関数(無名関数)のメンバをすべて返すが、
-newしないで、そのまんま呼び出す場合はreturnした値のみしか変えらない。undefineになる。
+newしないで、そのまんま呼び出す場合はreturnした値のみしか返らない。undefineになる。
 */
 var myFunc = function(){
   this.prop1 = 'foo';
