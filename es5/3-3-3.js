@@ -8,8 +8,9 @@ var myFunc = function(){
   this.prop3 = 'baz';
   // return this.prop1;
 }
-var obj1 = new myFunc();
-var obj2 = myFunc();
+var obj1 = new myFunc();//オブジェクトを入れている
+var obj2 = myFunc();//返ったものを格納している
+
 console.log(obj1);  //myFunc{prop1:"bar"}
 console.log(obj2);  //undefined
 

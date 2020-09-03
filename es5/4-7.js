@@ -13,13 +13,13 @@ var a = 'foo';
 var x = 'Global';
 var y = 'Global';
 function outerFunc() {
-  var x = 'LocalOuter';
+  // var x = 'LocalOuter';
   function innerFunc() {
-    var x = 'LocalInner';
+    // var x = 'LocalInner';
     //LocalInner①
     console.log(x);
     //Global②
-    console.log(y);
+    // console.log(y);
     //undefined③
     // console.log(z);
   }
@@ -28,7 +28,7 @@ function outerFunc() {
   innerFunc();
 }
 //Global⑤
-// console.log(x);
+console.log(x);
 outerFunc();
 
 

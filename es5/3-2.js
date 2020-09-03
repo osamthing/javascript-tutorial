@@ -1,3 +1,4 @@
+/* コンストラクタ関数 */
 var Member = function(firstName,lastName,age){
   this.firstName = firstName;
   this.lastName = lastName;

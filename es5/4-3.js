@@ -6,13 +6,12 @@
 そっちが優先的に定義されると同時に同盟の変数はundefineになる。。。なんでやねん。
 */
 
-
-
-
 var val = 'Global！';
+
 function getVal(){
   console.log(val);//undefined
-  // var val = 'Local!';
+  var val = 'Local!';
+  // console.log(val);
   return val;
 }
 console.log(getVal());  //Local!

@@ -39,7 +39,7 @@ if(true){
 }
 // ES6ではletでスコープは閉じる
 if(true){
-  let hoge = 1
+  var hoge = 1
 }
 
 
