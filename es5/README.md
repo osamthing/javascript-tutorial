@@ -46,7 +46,7 @@
 
 5-1. プロトタイプとは  
 5-2. prototypeプロパティー  
-5-3. prototypeチェーン]  
+5-3. prototypeチェーン  
 
 ### Chapter 6. 関数の理解を深めよう
 
