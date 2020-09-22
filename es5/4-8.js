@@ -26,10 +26,10 @@ console.log(myClosure());
 // console.log(closure(100)());
 //   //103
 {
-  const hoge = 1
+  var hoge = 1
 }
 {
-  const hoge = 2
+  var hoge = 2
 }
 console.log(hoge);
 
@@ -45,3 +45,31 @@ if(true){
 
 console.log(hoge)
 
+
+
+
+var foo = function (initVal){
+  var count = initVal;
+  var innerFunc = function(){
+      return ++count;
+  };
+  return innerFunc;
+}
+
+var bar1 = foo(200);
+console.log(bar1());
+console.log(bar1());
+console.log(bar1());
+
+// console.log(foo(200)());
+// console.log(foo(200)());
+// console.log(foo(200)());
+
+var bar2 = bar1;
+console.log(bar2());
+console.log(bar2());
+console.log(bar2());
+
+console.log(bar1());
+console.log(bar1());
+console.log(bar1());

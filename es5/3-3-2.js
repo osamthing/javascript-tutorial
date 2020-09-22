@@ -26,5 +26,5 @@ var myFunc2 = {
   }
   // return this.prop1;
 }
-var obj3 = myFunc2;
+var obj3 = myFunc2();
 console.log(obj3.method());

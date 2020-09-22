@@ -4,8 +4,6 @@ Javescriptは変数チェックをしない！
 これはバグの温床かも。
 */
 
-
-
 function showVal(val){
 	console.log(val);
 }
