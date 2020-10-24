@@ -1,3 +1,4 @@
+// オブジェクトリテラル
 const obj = {
     "key" : "value"
 }
