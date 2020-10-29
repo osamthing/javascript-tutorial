@@ -26,4 +26,12 @@ var hoge = new Bar('baz');
 console.log(hoge);
 console.log(hoge.getName('baz'));
 
+function Bar2(foo){
+  this.foo = foo;
+  this.getName = function(){
+    return this.name;
+  }
+};
+// console.log(Bar2.getName('foo'));
+
 

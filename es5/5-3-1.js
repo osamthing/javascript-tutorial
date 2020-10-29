@@ -13,5 +13,6 @@ SmartPhone.prototype.tap = function(){
   console.log('tap!');
 };
 var myPhone = new SmartPhone('igarashi');
-myPhone.getOwner();
+myPhone.getOwner();//(2)
+
 
